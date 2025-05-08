@@ -1,0 +1,66 @@
+.sidebar{
+    background-color: #27db8f;
+    height: 100vh;
+}
+
+.logo{
+    color: white;
+    margin-top: 45%;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.logo_sidebar{
+    text-align: center;
+}
+
+.img_logo_sidebar{
+    width: 100%;
+}
+
+.sidebar{
+    background-image: url('../img/fundo_background.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 75vh;
+}
+.area_cadastrar{
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.sub-titulo{
+    color: gray;
+}
+
+.input-form{
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    outline:0;
+}
+
+.input-form:focus{
+    border: 2px solid #27db8f !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn-first{
+    border: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 25px;
+    background-color: #27db8f;
+    color: white;
+    font-weight: bold;
+}
