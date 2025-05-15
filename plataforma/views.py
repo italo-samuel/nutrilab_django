@@ -189,3 +189,7 @@ def opcao(request, id_paciente):
 
         messages.add_message(request, constants.SUCCESS, 'Opcao cadastrada')
         return redirect(f'/plano_alimentar/{id_paciente}')
+    
+
+def home(request):
+    return render(request, 'home.html')
