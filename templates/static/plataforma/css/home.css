@@ -1,0 +1,51 @@
+.div-image{
+    width: 100%;
+    display: flex;
+}
+
+.img_home {
+    background-image: url('/static/plataforma/img/brooke-lark-08bOYnH_r_E-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* preenche todo o container */
+    background-position: center; /* centraliza a imagem */
+    
+    width: 100vw;  /* 100% da largura da viewport */
+    height: 93.80vh; /* 100% da altura da viewport */
+
+    display: flex;
+    align-items: center;   /* alinha verticalmente */
+    justify-content:right; /*alinha horizontalmente */
+    color: rgb(53, 50, 50);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* para dar contraste */
+}
+
+.div-text{
+    width: 700px;
+    margin: 100px;
+    padding: 10px;
+}
+
+.h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color:red;
+}
+.p_text{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_items{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    text-decoration: none;
+
+}
+
+.nav_items a{
+
+  padding: 10px;
+  color: white;
+}

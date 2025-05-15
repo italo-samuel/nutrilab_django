@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block 'head' %}
+<link rel="stylesheet" href="{% static 'plataforma/css/home.css' %}">
+
+{% endblock 'head' %}
+
+{% block 'nav' %}
+<div class="nav_items">
+     <a  class="navbar-brand" href="{% url "cadastro" %}">Cadastar</a>
+     <a  class="navbar-brand" href="{% url "logar" %}">logar</a>
+</div>
+
+{% endblock 'nav' %}
+
+{% block 'body' %}
+<div class="div-image">
+    
+    <div class="img_home">
+        <div class='div-text'>
+            <h1>Home</h1>
+        <p class='p_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus finibus dui eget facilisis. Quisque volutpat, tortor ac congue congue, odio tortor rutrum orci, in gravida dui mauris vel justo. Suspendisse magna elit, aliquet id rhoncus nec, volutpat sed nisl. Aliquam arcu elit, iaculis quis pretium a, convallis at lorem. Donec eget sagittis justo. Morbi sollicitudin scelerisque urna et scelerisque. Proin scelerisque varius nibh ac semper. Sed facilisis feugiat augue ullamcorper ultricies. Maecenas vehicula justo sed blandit interdum. Nullam ut justo venenatis, rutrum nibh vel, tempor elit. Pellentesque semper vitae felis nec dictum. In eu nunc eget lectus placerat ultricies. Quisque pretium tellus in arcu scelerisque posuere. Proin molestie augue id vulputate fringilla. Mauris non dolor sit amet tellus tempor feugiat ac eget leo. Vivamus malesuada in sapien at congue.</p>
+        </div>
+        
+    </div>
+</div>
+
+{% endblock 'body' %}
